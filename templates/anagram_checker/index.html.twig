@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<div class="mt-[20px] flex flex-col items-center text-center justify-center">
+    <h1 class="mb-[10px]"> Anagram Checker </h1>
+    
+    {{ form_start(form) }}
+
+        {{ form_row(form.Word,{"label":false}) }}
+        {{ form_row(form.Comparison,{"label":false}) }}
+        
+        <div class="flex w-screen justify-center text-center mt-[10px]">
+            {{ form_row(form.Submit) }}
+        </div>
+    
+    {{ form_end(form) }}
+    
+    {% if message is defined and message == true %}
+        <p class="mt-[10px]">{{word}} and {{comparison}} are anagrams</p>
+    {% elseif message is defined %}
+        <p class="mt-[10px]">{{word}} and {{comparison}} are not anagrams</p>
+    {% endif %}
+</div>
+{% endblock %}
