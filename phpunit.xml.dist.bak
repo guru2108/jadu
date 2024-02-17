@@ -23,7 +23,7 @@
         </testsuite>
     </testsuites>
 
-    <!-- <coverage processUncoveredFiles="true">
+    <coverage processUncoveredFiles="true">
         <include>
             <directory suffix=".php">src</directory>
         </include>
@@ -31,7 +31,7 @@
 
     <listeners>
         <listener class="Symfony\Bridge\PhpUnit\SymfonyTestsListener" />
-    </listeners> -->
+    </listeners> 
 
     <extensions>
         <extension class="Symfony\Component\Panther\ServerExtension" />
