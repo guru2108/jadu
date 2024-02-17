@@ -1,4 +1,4 @@
-# Symfony Text Checkers
+# Symfony Assessment
 
 This Symfony project provides functionalities to check if a word is an anagram, palindrome, or pangram.
 
@@ -18,13 +18,13 @@ Make sure you have the following installed on your system:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/text-checkers.git
+git clone https://github.com/guru2108/jadu.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd jadu_assessment
+cd jadu
 ```
 
 3. Install dependencies:
