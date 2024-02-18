@@ -61,7 +61,7 @@ This feature allows you to check if a word is a palindrome.
 
 This feature allows you to check if two words are anagrams.
 
-### Panagram Checker
+### Pangram Checker
 
 This feature allows you to check if a sentence/phase is a pangram. It returns true the phase contains at
 least one instance of every letter in the English alphabet.
